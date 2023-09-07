@@ -1,0 +1,26 @@
+
+textarea {
+    min-height: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: inherit;
+    resize: vertical;
+    background-color: #2b2b2b; 
+    color: #e1e1e1;
+    border: 1px solid #444;
+}
+
+
+.read, .unread {
+    transition: background-color 0.3s ease;
+}
+
+
+.read {
+    background-color: #555; 
+}
+
+
+.unread {
+    background-color: #333; 
+}
